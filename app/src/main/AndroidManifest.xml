@@ -13,14 +13,22 @@
         android:theme="@style/Theme.Franco_rojas_seccioncurso"
         tools:targetApi="31">
         <activity
+            android:name=".VendedoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.Franco_rojas_seccioncurso">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" android:exported="false" />
 
     </application>
 
